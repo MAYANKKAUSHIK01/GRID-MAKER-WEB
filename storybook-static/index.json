@@ -1,0 +1,1 @@
+{"v":5,"entries":{"advanceddatagrid--fifty-thousand-rows":{"type":"story","id":"advanceddatagrid--fifty-thousand-rows","name":"Fifty Thousand Rows","title":"AdvancedDataGrid","importPath":"./src/stories/DataGrid.stories.tsx","componentPath":"./src/DataGrid/DataGrid.tsx","tags":["dev","test"]}}}
