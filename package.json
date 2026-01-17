@@ -3,12 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://MAYANKKAUSHIK01.github.io/GRID-MAKER-WEB",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "vitest run"
+    "test": "vitest run",
+    "predeploy": "npm run build-storybook",
+    "deploy": "gh-pages -d storybook-static"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -25,6 +28,7 @@
     "@vitejs/plugin-react": "^5.1.2",
     "autoprefixer": "^10.4.16",
     "axe-core": "^4.8.2",
+    "gh-pages": "^6.1.0",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.3.3",
